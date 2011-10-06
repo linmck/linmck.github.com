@@ -1,0 +1,22 @@
+Site 1  (Shop, Armoire Vintage Consignment)
+User Story 1:
+Jackie, a 32 year urban social, is looking for a dress for a wedding. She has a unique style. She does not want to shop at a mall or department stores since she is afraid that she'll end up having the same dress as another wedding guest. Her solution is to buy vintage. She uses Yelp to look for vintage stores in the area and finds Armoire, a women's vintage & consignment boutique. Armoire website contains images that display some of their recent items and sees some great finds. She looks up the store's location and hours to see if she can make it there after work.
+
+User Story 2:
+Danielle, a 40 year old financial analyst whose mother just passed away, is trying to sell  her parents former home. Danielle finds a box of her mother's old dresses and blouses from the 1960's and decides to sell the garments. She is too busy to sell each individual item herself online so she looks for a way to do it offline. She is familiar with Armoire since it is by the cafe she gets her coffee in the mornings, but she has never consigned anything before. She googles the store to find out more information about consigning clothing, business hours and contact information.
+
+
+Site 2 (Blog, Fashionable & Functional)
+User Story 1:
+Tracy is a fashion major and is looking for current street wear styles to inspire her next project. She is constantly on Pinterest and happens upon a pin for a DIY faux fur cowl through one of her friends and lands on the post from Fashionable & Functional, a DIY site that focuses on garments and accessories for everyday wear. She is most interested in browsing through the projects by category. She also would like to see references to online fabric resources and complimentary blogs.
+
+User Story 2:
+Selene, an avid follower of Fashionable & Functional, checks in everyday from www.bloglovin.com to see new projects. She is very crafty and has made many of the projects she has founds on the blog. She likes to be able to easily reference comments from other users to see how they have tailored the project to fit their needs. She also likes to participate in the contests that the blog hosts from time to time, so news of upcoming challenges is something that keeps her coming back to the blog.
+
+
+Site 3 (Restaurant, The Round Table)
+User Story 1: 
+Jason is a 20 year old undergrad who plays tabletop games with his friends every week. He heard about The Round Table, a theater-restaurant that has a medieval theme, in an email newsletter from the gaming store he frequents and is debating if it would be a good place to do a night out with his friends. He is interested in authenticity, so he wants to see photos of the costumes and decor. Jason also needs to find out if The Round Table accommodates larger parties and if they are near public transportation.
+
+User Story 2: 
+Debbie, a mother of 2, is looking for something for her family to do during a rainy weekend. She follows a mommy blog that posted about The Round Table as a great family activity. She is looking to see if the content of the theatrics is age appropriate for her 8 and 10 year olds. She also needs to find the available showtimes and the menu before making a reservation. After making a reservation she needs to get the address for her gps.
