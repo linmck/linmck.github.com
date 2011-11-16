@@ -1,113 +1,199 @@
 body{
-	background-color: #e8f1d4;
-	position: absolute;
+background-color: #e8f1d4;
+position: absolute;
+}
+
+ul {
+list-style: none;
 }
 
 #site-wrapper {
-	height: 130px;
-    background-color: #e8f1d4;
+height: 130px;
+background-color: #e8f1d4;
 }
 
 header#site-header{
-	position: relative;
-	width: 960px;
-	margin: 0 auto; 
+position: relative;
+width: 960px;
+margin: 0 auto;
 
 }
 #site-header h1 a{
-	display: block;  
-	width: 306px; 
-	height: 123px;  
-	background: url(images/logo.png) no-repeat top left; 
-	text-indent: -9999px;
-	position: absolute;	
+display: block;  
+width: 306px;
+height: 123px;
+background: url(images/logo.png) no-repeat top left;
+text-indent: -9999px;
+position: absolute;
 }
 
 nav#top-nav {
-	display: block;
-	position: absolute;
-	top: 0;
-	right: 0;
-	color: #663300;
+display: block;
+position: absolute;
+top: 0;
+right: 0;
+color: #663300;
 }
-nav#top-nav a{	
-	text-decoration: none;
-	color: #663300;
-	font-family: helvetica;
-	font-size: 12px;
-	padding: 10px;
+
+nav#top-nav a{
+text-decoration: none;
+color: #663300;
+font-family: helvetica;
+font-size: 12px;
+padding: 10px;
 }
+
 nav#menu-wrapper {
-	display: block;
-	position: relative;
-
+display: block;
+position: relative;
 }
+
 nav#main-menu {
-	height: 24px;
-	background-color: #663300;
+height: 24px;
+background-color: #663300;
 }
-nav#main-menu a{
-    list-style: none;
-	text-decoration: none;
-	float: left;
-    color: #ffffff;
-    font-family: helvetica;
-	font-size: 18px;
-	text-transform: uppercase;
-	padding-left: 15px;
-	padding-right: 15px;
+
+nav#main-menu a {
+list-style: none;
+text-decoration: none;
+float: left;
+color: #ffffff;
+font-family: helvetica;
+font-size: 18px;
+text-transform: uppercase;
+padding-left: 30px;
+padding-right: 30px;
+padding-top: 5px;
+padding-bottom: 5px;
 }
+
+nav#main-menu a:active {
+color: #008000
+}
+
 div#content-wrapper {
-	display: block;
-	float: left;
-	width: 800px;
-	background-color: #ffffff;
+float: left;
+width: 100%;
+background-color: #ffffff;
 }
+
 div#content {
-
-}
-article#page h1{
-	color: #663300;
-	font-family: futura;
-	font-size: 32px;
+width: 100%;
 }
 
-article#page h2{
-	color: #663300;
-	font-family: helvetica;
-	font-size: 22px;
-	text-transform: uppercase;
+article#page {
+width: 50%;
+float: left;
 }
 
-article#page p{
-	color: #000000;
-	font-family: helvetica;
-	font-size: 12px;
-}		
+article#page h1 {
+margin-top: 17px;
+margin-bottom: 0;
+color: #663300;
+font-family: cookie;
+font-size: 72px;
+padding-left: 70px;
+padding-right: 30px;
+}
+
+article#page h2 {
+margin: 0;
+color: #663300;
+font-family: helvetica;
+font-size: 22px;
+text-transform: uppercase;
+padding-left: 70px;
+padding-right: 30px;
+}
+
+article#page p {
+color: #000000;
+font-family: helvetica;
+font-size: 12px;
+padding-left: 70px;
+padding-right: 30px;
+}
 
 aside#sidebar {
-	float: left;
-	width: 275px;
+width: 50%;
+float: left;
 }
 
-aside#sidebar h1{
-	color: #663300;
-	font-family: helvetica;
-	font-size: 22px;
-	text-transform: uppercase;
+aside#sidebar h1 {
+margin-bottom: 5px;
+color: #663300;
+font-family: helvetica;
+font-size: 22px;
+text-transform: uppercase;
+padding-top: 80px;
+}
+
+aside#sidebar ul {
+padding: 0;
+margin: 0;
 }
 
 aside#sidebar a {
-	color: #663300;
-	font-family: helvetica;
-	font-size: 12px;
-	text-decoration: none;
+color: #663300;
+font-family: helvetica;
+font-size: 12px;
+text-decoration: none;
 }
-div#footer-wrapper {}
-footer#site-footer {}
-section#footer-contact {}
-section#footer-follow {}
 
-ul {
-	list-style: none;
+aside#sidebar img {
+display: block;
+padding-bottom: 5px;
+
+}
+
+div#footer-wrapper {
+clear:both;
+display: inline-block;
+background-color: #663300;
+position: relative;
+width: 100%;
+}
+
+
+footer#site-footer h1{
+text-transform: uppercase;
+}
+
+footer#site-footer {
+color: #ffffff;
+font-family: helvetica;
+width: 100%
+}
+
+section#footer-contact {
+float: left;
+color: #ffffff;
+font-family: helvetica;
+width: 50%;
+}
+
+section#footer-contact h1 {
+padding-left: 70px;
+width: 200px;
+}
+
+section#footer-contact p {
+padding-left: 70px;
+width: 200px;
+}
+
+section#footer-follow {
+float: left;
+width: 50%;
+}
+
+section#footer-follow ul{
+padding:0;
+}
+
+section#footer-follow li{
+list-style: none;
+float: left;
+padding-right: 10px;
+
 }
