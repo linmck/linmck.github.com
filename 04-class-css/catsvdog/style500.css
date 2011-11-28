@@ -1,0 +1,10 @@
+@media screen and (max-width:500px) {
+nav#top-nav-menu {display:none;}
+header {
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	border-bottom-color: #000000;}
+header img {max-width: 85%}
+.argument-dog {float: none; padding: 2%; margin: 0 auto;}
+.argument-cat {float: none; padding: 2%; margin: 0 auto;}
+}

@@ -1,0 +1,202 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	background-color: #ffffff; 
+}
+
+header {
+
+	}
+
+header img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+	padding: 3%;
+	}
+
+nav#top-nav-menu {
+	clear: left;	
+	padding: .25%;
+	border-top-style: solid;
+	border-top-width: 3px;
+	border-top-color: #000000;
+	border-bottom-style: solid;
+	border-bottom-width: 3px;
+	border-bottom-color: #000000;
+	list-style: none;
+	text-align: center;
+	max-width: 100%;
+}
+
+nav#top-nav-menu li {
+	display: inline;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 12px;
+	padding-right: 12px;
+	font-size: 1.75em;
+	font-family: georgia;
+	font-weight: bold;
+	}
+	
+nav#top-nav-menu li a {
+	display: inline-block;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #000000;		
+	}
+	
+#content-wrapper {
+	max-width:100%;
+}
+	
+.argument-dog {
+	display: block;
+	width: 44%;
+	height: auto;
+	float: left;
+	padding-left: 5%;
+	padding-right: 1%;
+}
+
+.argument-dog img {
+	padding-top: 5%;
+	padding-bottom: 5%;
+	float: left;
+	max-width: 100%;
+}
+
+.argument-dog h2 {
+	font-size: 1.25em;
+	font-family: georgia;
+	font-weight: bold;
+	padding-top: 0;
+	padding-bottom: 2%;
+	clear: left;
+}
+
+.argument-dog p {
+	display: block;
+	max-width: 100%;
+	padding-top: 0;
+	padding-bottom: 10%;
+	font-family: georgia;
+	font-size: 1em;
+}
+.argument-cat {
+	display: block;
+	width: 44%;
+	height: auto;
+	float: left;
+	padding-left: 1%;
+	padding-right: 5%;
+}
+
+.argument-cat img {
+	padding-top: 5%;
+	padding-bottom: 5%;
+	float: left;
+	max-width: 100%;
+}
+
+.argument-cat h2 {
+	font-size: 1.25em;
+	font-family: georgia;
+	font-weight: bold;
+	padding-top: 0;
+	padding-bottom: 2%;
+	clear: left;
+}
+
+.argument-cat p {
+	display: block;
+	max-width: 100%;
+	padding-top: 0;
+	padding-bottom: 10%;
+	font-family: georgia;
+	font-size: 1em;
+}
+
+div#footer-wrapper {
+	clear: both;
+	border-top-style: solid;
+	border-top-width: 3px;
+	border-top-color: #000000;
+	max-width: 100%;
+}
+
+footer#copyright {
+	font-family: georgia;
+	font-size: .5em;
+	padding-top: 2%;
+	padding-left: 2%;
+	padding-right: 2%;
+	padding-bottom: 5%;
+}
+
+footer#copyright ul li {
+	display: inline;
+}
+
+footer#copyright ul li a {
+	text-decoration: none;
+	color: red;
+}
+
+footer#copyright ul li.wiki {
+        float: left;
+}
+
+footer#copyright ul li.date {
+        float: right;
+}
+

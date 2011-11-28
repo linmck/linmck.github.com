@@ -1,0 +1,10 @@
+@media screen and (max-width:750px) {
+  nav#top-nav-menu ul li { font-size: 1em;
+	padding-left: 5px;
+	padding-right: 5px;
+	}
+  .argument-dog h2 {font-size: 1em}
+  .argument-dog p {font-size: .75em}
+  .argument-cat h2 {font-size: 1em}
+  .argument-cat p {font-size: .75em}
+}
