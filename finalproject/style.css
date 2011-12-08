@@ -132,16 +132,14 @@ table {
 
 body{
 	background-color: #ffffff;
-}
-
-header {
-
+	min-width: 1024px;
 }
 
 header img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: -5%;
 	max-width: 100%;
 	padding-top: 1%;
 	}
@@ -150,6 +148,7 @@ nav#main-menu {
 	list-style: none;
 	text-align: center;
 	max-width: 100%;
+	margin-bottom: -18%;
 }
 
 nav#main-menu li {
@@ -163,7 +162,7 @@ nav#main-menu li a{
 	display: inline-block;
 	text-decoration: none;
 	text-transform: lowercase;
-	color: #594433;
+	color: #352c2a;
 }
 
 nav#main-menu a:active {
@@ -186,77 +185,69 @@ nav#main-menu ul li.seperator {
 	margin-top: 2%;
 	margin-bottom: 4%;
 	max-width: 100%;
+	max-height: 100%;
+	overflow: hidden;
 }
 
-div#blog-wrapper {
+div.blog-wrapper {
 	display: block;
-	max-width: 65%;
+	max-width: 70%;
 	background-color: #ffffff;
 	border-style: solid;
 	border-width: 2px;
-	border-color: #594433;
+	border-color: #352c2a;
 	padding: 1%;
+	margin-top: 18%;
+	float: left;
 }
-article#blog-post {
+article.blog-post {
 	font-family: CaviarDreams;
 }
-article#blog-post h1 {
+article.blog-post h1 {
 	font-size: 1.5em;
  	color: #dd4512;
 	font-weight: bold;
 	padding-bottom: 2%;
 	padding-top: 2%;
 }
-article#blog-post h3 {
+article.blog-post h3 {
 	font-size: .75em;
-	color: #594433;
+	color: #352c2a;
 	text-align: right;
+	padding-top: 3%;
 }
 
-article#blog-post img.main-blog-image {
+article.blog-post img.blog-image {
 	border-style: solid;
 	border-width: 1px;
 	border-color: #000000;
 	float: left;
-	max-width: 100%;
+	width: 50%;
 	padding: 1%;
-	margin-bottom: .5%;
-	margin-left: 1%;
-	margin-top: 1%;
+	margin-right: 1%;
+	margin-top: 1.5%;
+	margin-bottom: 1.5%;
 }
 
-article#blog-post ul.blog-details {
-	font-size: 1.25em;
-	color: #594433;
+article.blog-post ul.blog-details {
+	font-size: 1.15em;
+	color: #352c2a;
 	font-weight: bold;
 	float: left;
-	padding-left: 2%;
-	padding-bottom: 2%;
-	width: 45%;
+	padding-bottom: 1%;
+	padding-top: 1%;
+	padding-left: 1%;
 }
 
-article#blog-post ul.blog-details li.address {
-	padding-left: 5%;
-	clear: right;
-}
 
-article#blog-post img.blog-thumbnail {
-	border-style: solid;
-	border-width: 1px;
-	border-color: #000000;
+article.blog-post p.blog-content {
+	display:block;
 	float: left;
-	max-width: 15%;
-	padding: 1%;
-	margin: 1%;
-	
-}
-
-article#blog-post p.blog-content {
 	font-size: 1em;
-	color: #594433;
+	color: #352c2a;
 	width: 45%;
-	float: left;
-	padding-left: 2%;
+	padding-top: 1%;
+	padding-left: 1%;
 	line-height: 1.2em;
 }	
 
@@ -264,56 +255,103 @@ p.blog-content a.view-more {
 	 	color: #dd4512;
 		text-decoration: none;
 		text-transform: lowercase;
-		display: inline;
-		clear: right;
 }
 
-article#blog-post ul.article-footer li {
+div.blog-footer-wrapper {
+	clear: both;
+	max-width: 100%;
+}
+
+div.blog-footer-wrapper p{
+	text-transform: lowercase;
 	font-size: .75em;
-	color: #594433;
+	color: #352c2a;
+	float: left;
 }
 
-article#blog-post ul.article-footer li a {
+div.blog-footer-wrapper p a {
  	color: #dd4512;
 	text-decoration: none;
-	text-transform: lowercase;
-}
-
-div#follow-me ul{
-	font-family: CabinSketch;
-	color: #efebd8;
-}
-
-div#follow-me ul li.follow {
-	background-color: #594433;
-	padding-left: 1%;
-	padding-right: 1%;
-}
-
-div#follow-me ul li.social-sites {
-	background-color: #594433;
-	padding-left: 1%;
-	padding-right: 1%;
-}
-
-div#follow-me ul li a {
 }
 
 aside#side-nav {
+	max-width: 20%;
+	margin-top: 18%;
+	float: right;
 	display: block;	
-	height: 25%;
-	width: 20%;
 	background-color: #ffffff;
 	border-style: solid;
 	border-width: 2px;
-	border-color: #594433;
+	border-color: #352c2a;
+	padding: 2%;
 }
 
+aside#side-nav img.social {
+	max-width: 14%;
+}
+
+aside#side-nav img.bio-photo {
+	width: 90%;
+	margin-left: 3%;
+	margin-right: 3%;
+	padding: 2%;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #000000;
+	margin-bottom: 1%;
+
+}
+
+aside#side-nav h4 {
+	font-family: CabinSketch;
+	color: #352c2a;
+	padding-bottom: 2%;
+}
+
+aside#side-nav p {
+	font-family: CaviarDreams;
+	color: #352c2a;
+	font-size: .85em;
+	padding-bottom: 5%;
+	display: block;
+	width: 90%;
+	margin-left: 3%;
+	margin-right: 3%;
+	padding: 2%;
+}
 aside#side-nav ul {
-	
+	width: 100%;
+	margin-left: 3%;
+	margin-right: 3%;
 }
 
-aside#side-nav li ul li {
-	
+aside#side-nav ul li {
+	padding: 2%;
+	list-style: none;
+	display: inline;
 }
 
+
+footer#site-footer {
+	padding: 2%;
+	clear: both;
+	max-width: 100%;
+	list-style: none;
+	text-align: center;
+}
+
+footer#site-footer ul li {
+	display: inline;
+	padding: 1%;
+	font-size: .75em;
+	font-family: CaviarDreams;
+	text-transform: lowercase;
+	color: #352c2a;
+}
+
+footer#site-footer ul li a {
+	display: inline-block;
+	text-decoration: none;
+	text-transform: lowercase;
+	color: #352c2a;
+}
