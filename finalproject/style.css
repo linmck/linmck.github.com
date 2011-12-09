@@ -87,7 +87,7 @@ nav#main-menu li a{
 	color: #352c2a;
 }
 
-nav#main-menu a:hover {
+nav#main-menu li a:hover {
 	color: #dd4512;
 }
 
